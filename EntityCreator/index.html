@@ -1,0 +1,99 @@
+<!--
+<html>
+<head>
+<title>Creador de Entidades </title>
+<meta charset="UTF-8"></meta>
+<script src="funciones.js"></script> 
+</head>
+<body>
+<form>
+<input type="button" onclick="mostrar()">Prueba</input>
+</form>
+</body>
+</html>
+-->
+
+<html>
+<head>
+<title>Creador de Entidades </title>
+</head>
+<body onLoad="cargarFormulario()">
+
+<form>
+<label for = "entityNameInput">Nombre Entidad</label>
+<input type="text" id="entitynameinput"></input><br/>
+<label for ="atr1">Atributo Uno:</label>
+<input type="text" id="atr1">
+<select id="tipo1">
+    <option value="int">int</option>
+    <option value="int*">int*</option>
+    <option value="char">char</option>
+    <option value="char*">char*</option>
+    <option value="float">float</option>
+    <option value="float*">float*</option>
+    <option value="double">double</option>
+    <option value="double*">double*</option>
+  </select>
+  <br/>
+<label for ="atr2">Atributo Dos:</label>
+<input type="text" id="atr2">
+<select id="tipo2">
+    <option value="int">int</option>
+    <option value="int*">int*</option>
+    <option value="char">char</option>
+    <option value="char*">char*</option>
+    <option value="float">float</option>
+    <option value="float*">float*</option>
+    <option value="double">double</option>
+    <option value="double*">double*</option>
+  </select>
+  <br/>
+<label for ="atr3">Atributo Tres:</label>
+<input type="text" id="atr3">
+<select id="tipo3">
+    <option value="int">int</option>
+    <option value="int*">int*</option>
+    <option value="char">char</option>
+    <option value="char*">char*</option>
+    <option value="float">float</option>
+    <option value="float*">float*</option>
+    <option value="double">double</option>
+    <option value="double*">double*</option>
+    <option value="void">void</option>
+    <option value="void*">void*</option>
+  </select>
+  <br/>
+
+<label for ="atr4">Atributo Cuatro:</label>
+<input type="text" id="atr4">
+<select id="tipo4">
+    <option value="int">int</option>
+    <option value="int*">int*</option>
+    <option value="char">char</option>
+    <option value="char*">char*</option>
+    <option value="float">float</option>
+    <option value="float*">float*</option>
+    <option value="double">double</option>
+    <option value="double*">double*</option>
+    <option value="void">void</option>
+    <option value="void*">void*</option>
+  </select>
+  <br/>
+
+<label for ="atrper1">Atributo personalizado 1:</label>
+<input type="text" id="atrper1nombre">
+
+<label for ="atrpertipo1">Atributo personalizado 1 tipo:</label>
+<input type="text" id="atrper1tipo"><br/>
+
+<label for ="atrper2">Atributo personalizado 2:</label>
+<input type="text" name="atrper2nombre">
+
+<label for ="atrpertipo1">Atributo personalizado 2 tipo:</label>
+<input type="text" name="atrper2tipo"><br/>
+<input type="button" onclick="mostrar()" value="Prueba">
+
+</form>
+</body>
+<script src="funciones.js"></script> 
+</html>
